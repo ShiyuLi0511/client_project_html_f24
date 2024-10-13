@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: underline;  /* Ensure underline in all states */
+    text-decoration: underline;
     color: #FFCB05;
     font-weight: bold;
     padding: 5px 10px;
@@ -146,7 +146,7 @@ li {
 
 li a {
     color: #502D88;
-    text-decoration: underline;  /* Ensure underline in all states */
+    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -155,13 +155,12 @@ li a:hover {
     text-decoration: underline;
 }
 
-/* Global link styling for all states */
 a {
-    text-decoration: underline;  /* Default state: underlined */
+    text-decoration: underline;
 }
 
 a:hover, a:active, a:focus, a:visited {
-    text-decoration: underline;  /* Maintain underline in all states */
+    text-decoration: underline;
 }
 
 img {
@@ -182,7 +181,6 @@ figcaption {
     padding-bottom: 10px;
 }
 
-/* Footer Styling */
 footer {
     background-color: #00274C;
     color: #FFFFFF;
@@ -191,20 +189,19 @@ footer {
     grid-column: 1 / -1;
 }
 
-/* Only underline the "UMSI Academic Advising" link */
 #footer_link {
     color: #FFFFFF;
 }
 
 #footer_link a {
     color: #FFCB05;
-    text-decoration: underline; /* Only this link will have underline */
+    text-decoration: underline;
     font-weight: bold;
 }
 
 #footer_link a:hover {
     color: #FFCB05;
-    text-decoration: underline; /* Keep underline on hover */
+    text-decoration: underline;
 }
 
 #footer_link a:visited {
