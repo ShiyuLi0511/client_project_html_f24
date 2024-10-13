@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #FFCB05;
     font-weight: bold;
     padding: 5px 10px;
