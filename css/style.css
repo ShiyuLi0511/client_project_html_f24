@@ -182,24 +182,29 @@ figcaption {
     padding-bottom: 10px;
 }
 
+/* Footer Styling */
 footer {
     background-color: #00274C;
     color: #FFFFFF;
     padding: 20px;
     text-align: center;
     grid-column: 1 / -1;
-    text-decoration: underline;
+}
+
+/* Only underline the "UMSI Academic Advising" link */
+#footer_link {
+    color: #FFFFFF;
 }
 
 #footer_link a {
     color: #FFCB05;
-    text-decoration: underline;
+    text-decoration: underline; /* Only this link will have underline */
     font-weight: bold;
 }
 
 #footer_link a:hover {
     color: #FFCB05;
-    text-decoration: underline;
+    text-decoration: underline; /* Keep underline on hover */
 }
 
 #footer_link a:visited {
@@ -216,7 +221,6 @@ footer {
     outline: 2px solid #FFCB05;
     outline-offset: 2px;
 }
-
 
 a[href="#main"] {
     position: absolute;
