@@ -58,7 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: underline;
+    text-decoration: underline;  /* Ensure underline in all states */
     color: #FFCB05;
     font-weight: bold;
     padding: 5px 10px;
@@ -146,13 +146,22 @@ li {
 
 li a {
     color: #502D88;
-    text-decoration: underline;
+    text-decoration: underline;  /* Ensure underline in all states */
     font-weight: bold;
 }
 
 li a:hover {
     color: #00274C;
     text-decoration: underline;
+}
+
+/* Global link styling for all states */
+a {
+    text-decoration: underline;  /* Default state: underlined */
+}
+
+a:hover, a:active, a:focus, a:visited {
+    text-decoration: underline;  /* Maintain underline in all states */
 }
 
 img {
