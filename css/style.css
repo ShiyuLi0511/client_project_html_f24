@@ -128,7 +128,6 @@ h3 {
     background-color: transparent;
 }
 
-/* List Styling */
 ul {
     list-style-type: disc;
     padding-left: 20px;
@@ -184,7 +183,8 @@ footer {
 
 #footer_link a {
     color: #FFCB05;
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 #footer_link a:hover {
@@ -202,9 +202,11 @@ footer {
 
 #footer_link a:focus {
     color: #FFCB05;
+    text-decoration: underline;
     outline: 2px solid #FFCB05;
     outline-offset: 2px;
 }
+
 
 a[href="#main"] {
     position: absolute;
