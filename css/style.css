@@ -231,7 +231,6 @@ figcaption {
 
 
 /* Footer */
-
 footer {
     background-color: #00274C;
     color: #FFFFFF;
@@ -241,12 +240,12 @@ footer {
 }
 
 footer a {
-    color: #FFCB05; /* A brighter yellow color to improve contrast */
+    color: #FFCB05;
     text-decoration: underline;
 }
 
 footer a:hover {
-    color: #FFFFFF; /* White for better readability on hover */
+    color: #FFFFFF;
 }
 
 /* Accessibility and Skip Link */
