@@ -239,6 +239,15 @@ footer {
     grid-column: 1 / -1;
 }
 
+footer a {
+    color: #FFCB05; /* A brighter yellow color to improve contrast */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FFFFFF; /* White for better readability on hover */
+}
 /* Accessibility and Skip Link */
 a[href="#main"] {
     position: absolute;
